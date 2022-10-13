@@ -2,6 +2,8 @@
 
 In terminal type npm run dev
 
+This project was created by following along with the guide made by Tyler Potts. 
+you can access the guide from this link (https://www.youtube.com/watch?v=_qgNOFGERcM)
 
 
 ## Vue 3 + Vite
