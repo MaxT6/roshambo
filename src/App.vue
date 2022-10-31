@@ -96,20 +96,20 @@ onMounted(() => {
 
 
           <button @click="play('rock')" 
-            class="bg-white rounded-full shadow-lg w-64 p-12 mx-6
-            transition-colors duration-300 hover:bg-pink-500">
+            class="bg-pink-400 rounded-full shadow-lg w-64 p-12 mx-6
+            transition-colors duration-300 hover:bg-white">
             <img src="./assets/RockIcon.svg" alt="Rock" class="w-full" />
           </button>
 
           <button @click="play('paper')" 
-            class="bg-white rounded-full shadow-lg w-64 p-12 mx-6
-            transition-colors duration-300 hover:bg-green-500">
+            class="bg-green-400 rounded-full shadow-lg w-64 p-12 mx-6
+            transition-colors duration-300 hover:bg-white">
             <img src="./assets/PaperIcon.svg" alt="Paper" class="w-full" />
           </button>
 
           <button @click="play('scissors')" 
-            class="bg-white rounded-full shadow-lg w-64 p-12 mx-6
-            transition-colors duration-300 hover:bg-orange-500">
+            class="bg-orange-400 rounded-full shadow-lg w-64 p-12 mx-6
+            transition-colors duration-300 hover:bg-white">
             <img src="./assets/ScissorsIcon.svg" alt="Scissors" class="w-full" />
           </button>
       </div>
