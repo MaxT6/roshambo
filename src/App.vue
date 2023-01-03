@@ -83,12 +83,16 @@ onMounted(() => {
   })
 })
 
+
+
 </script>
 
 <template>
   <div class= "bg-gray-700 text-white text-center min-h-screen flex flex-col">
     <header class='container mx-auto p-6'>
-      <h1 class="text-4xl font-bold"> Rock, Paper, Scissors</h1>
+        <h1 class="text-4xl"> <a class="text-pink-400">Rock</a>, <a class="text-green-400">Paper</a>, <a class="text-orange-400">Scissors</a> </h1>
+  
+      
     </header>
 
     <main class="container mx-auto p-6 flex-1">
@@ -96,19 +100,22 @@ onMounted(() => {
 
 
           <button @click="play('rock')" 
-            class="bg-pink-400 rounded-full shadow-lg w-64 p-12 mx-6
+            class="bg-pink-400 rounded-full shadow-lg w-70 p-6 mx-3 md:p-12 md:mx-6
             transition-colors duration-300 hover:bg-white">
             <img src="./assets/RockIcon.svg" alt="Rock" class="w-full" />
+            <!-- <h1 class="block md:hidden lg:hidden">ROCK</h1> -->
+            
           </button>
 
           <button @click="play('paper')" 
-            class="bg-green-400 rounded-full shadow-lg w-64 p-12 mx-6
+            class="bg-green-400 rounded-full shadow-lg w-70 p-6 mx-3
+             md:p-12 md:mx-6
             transition-colors duration-300 hover:bg-white">
-            <img src="./assets/PaperIcon.svg" alt="Paper" class="w-full" />
+            <img src="./assets/PaperIcon.svg" alt="Paper" />
           </button>
 
           <button @click="play('scissors')" 
-            class="bg-orange-400 rounded-full shadow-lg w-64 p-12 mx-6
+            class="bg-orange-400 rounded-full shadow-lg w-70 p-6 mx-3 md:p-12 md:mx-6
             transition-colors duration-300 hover:bg-white">
             <img src="./assets/ScissorsIcon.svg" alt="Scissors" class="w-full" />
           </button>
